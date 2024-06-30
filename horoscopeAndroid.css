@@ -4,12 +4,11 @@
 }
 
 .container{
-    background-color: brown;
     font-size: 23px;
     margin-top: 40px;
     margin-left: 4px;
     margin-right: 550px;
-    border: none;
+    border: 1px solid black;
     padding-left: 25px;
     padding-top: 65px;
     padding-bottom: 65px;
@@ -19,19 +18,19 @@
 
 h2{
     font-weight: bolder;
-    background-color: brown;
-    color: rgb(249, 182, 182);
+    background-color: antiquewhite;
+    color: black;
     font-size: 45px;
 }
 
 .desc{
-    background-color: brown;
+    background-color: antiquewhite;
     color: aliceblue;
     font-size: 26px;
 }
 
 label{
-    background-color: brown;
+    background-color: antiquewhite;
     color: aliceblue;
     font-size: 24px;
 }
