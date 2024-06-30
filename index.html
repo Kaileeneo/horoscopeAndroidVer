@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="horoscopeAndroid.css">
+    <title>Horoscope</title>
+</head>
+<body>
+    <div class="base">
+        <div class="container">
+            <h2>ANSWERS TO YOUR QUESTIONS</h2>
+            <p class="desc">Do you need answers? Ask our savage monk robot what their opinion is.</p>
+            <label>Enter your moral dilemma: </label><br>
+            <input type="text" id="question" value="Hey, monk..."><br>
+            <button id="getAns" onclick="theTruth()">Get An Answer</button>
+            <p id="answer"></p>
+            <span class="material-symbols-outlined" id="reset" onclick="reset()">
+                refresh
+            </span>
+        </div>  
+    </div>
+
+    <script src="horoscopeAndroid.js"></script>
+</body>
+</html>
